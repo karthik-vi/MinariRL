@@ -1,6 +1,6 @@
 # CSE 546 RL Deep Dives: Minari Library for Offline RL
 
-**Presenters:** Sai Karthik Varma Indukuri, Hemanth Poondla  
+**Presenters:** [Sai Karthik Varma Indukuri](https://github.com/karthik-vi), [Hemanth Poondla](https://github.com/hemanthp2506)  
 **Topic:** Managing and Creating Offline Reinforcement Learning Datasets using Minari
 
 ## Overview
@@ -21,5 +21,7 @@ The notebook covers the following 10 steps:
 9. **Combining Datasets:** Merging multiple datasets (e.g., human + expert) via the CLI.
 10. **Custom Dataset Creation:** Using the `DataCollector` wrapper to record new offline datasets from live Gymnasium environments (demonstrated with `CartPole-v1`).
 
+## Installation
+To run this notebook locally, ensure you have Python installed, then install the required dependencies:
 ```bash
 pip install minari[all] gymnasium
